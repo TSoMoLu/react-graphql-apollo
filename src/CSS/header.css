@@ -1,0 +1,103 @@
+/*importing fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap");
+
+/*PLP*/
+.PLP {
+  width: 100vw;
+}
+
+/*HEADER*/
+/*Currency Switcher*/
+.DropDownContainer,
+.DropDownListContainer {
+  width: 10.5em;
+  margin: 0 auto;
+}
+
+.DropDownHeader {
+  font-size: 18px;
+  color: #1d1f22;
+  background: #ffffff;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.DropDownList {
+  padding: 0;
+  margin: 0;
+  padding-left: 1em;
+  background: #ffffff;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+ul:first-child {
+  padding-top: 0.8em;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 0.8em;
+}
+
+.emptycart {
+  display: inline-flex;
+}
+
+/*Category Header*/
+.primaryheader {
+  display: flex;
+  width: 100vw;
+}
+
+#categoryName {
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+#categoryHeader {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 67px;
+  text-transform: capitalize;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Product Gallery*/
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.image-grid {
+  width: 220px;
+  height: 270px;
+}
+
+.image-grid:hover {
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+  background: #ffffff;
+}
+
+.product-brand-name {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.price-tag {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
